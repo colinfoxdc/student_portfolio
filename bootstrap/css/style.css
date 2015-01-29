@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+	
+body {
+	background-image:url("../images/bg.png");
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+	
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	width: 75%;
+	background-color: black;
+	}
+	
+.logo {
+	float: left;
+	margin-right: 2%;
+	clear: both;
+	}
+	
+.nav-pills {
+	padding-top: 2%;
+	}
+	
+.nav-pills li.active  a {
+	background-color: black;
+	color: white;
+	}
+	
+.nav-pills li.active  a:hover {
+	background-color: red;
+	color: black;
+	}	
+
+.nav-pills li  a {
+	background-color: black;
+	color: white;
+	}
+	
+.nav-pills li  a:hover {
+	background-color: gray;
+	color: black;
+	}
+	
+	
+.jumbotron {
+	padding-top: 1%;
+	padding-right: 0;
+	padding-bottom: 1%;
+	padding-left: 0;
+	margin: 0;
+	background: black;
+	}	
+
+.jumbo-img {
+	max-width: 100%;
+	}
+	
+h1 {
+	color: white;
+	text-align: center;
+	background-color: gray;
+	padding: .5%;
+	padding: .5%;
+	font-size: 225%;
+	}
+	
+.media-object {
+		display: inline;
+		margin: 4%;
+		}
+		
+		
+.pull-left {
+		width: 100%;
+	
+		margin: auto;
+		padding: auto;
+		}
+		
+p {	
+		clear: both;
+	
+		color: white;
+		padding: 0;
+		}
+		
+h6 { 
+		display: none;
+		padding: 0;
+		color: white;
+		float: left;
+		clear: both;
+		}
+		
+.img-thumbnail {
+	margin-left: 3.7%;
+	margin-top: 1.5%;
+	margin-right: 1.5%;
+	padding: 0;
+	}
+	
+.bottom {
+	margin: 0;
+	padding-bottom: 5%;
+	}
+	
+footer p {
+	margin-left: 33%;
+	}

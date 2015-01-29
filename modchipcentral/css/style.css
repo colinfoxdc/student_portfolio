@@ -1,0 +1,155 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: white;
+}
+
+#wrapper {
+    background-color: gray;
+    border: 1px green solid;
+    width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+ #gal1 img {
+    border:1px solid white;
+    
+}
+
+.active img {
+    border:1px solid #333 !important;
+}
+
+
+
+p, h3 { 
+	margin-bottom:15px;
+}
+
+#tab1 {
+    padding:10px;
+    width:600px;
+    background:#fff;
+}
+
+#tab1 li {
+    margin-left:25px;
+}
+
+#tab2 {
+    padding:10px;
+    width:600px;
+    background:#fff;
+}
+
+#tab2 li {
+    margin-left:25px;
+}
+
+#tab3 {
+    padding:10px;
+    width:600px;
+    background:#fff;
+}
+
+#tab3 li {
+    margin-left:25px;
+}
+
+.tabs li {
+    list-style:none;
+    display:inline;
+    width: 600px;
+}
+
+.tabs a {
+    padding:5px 10px;
+    display:inline-block;
+    background:#666;
+    color:#fff;
+    text-decoration:none;
+}
+
+.tabs a.active {
+    background:#fff;
+    color:#000;
+}
+
+#tabs {
+    float: right;
+    margin: 25px;
+    margin-right: 35px;
+    overflow:hidden;
+   
+}
+
+#carousel {
+    position:relative;
+    bottom:100;
+    overflow:hidden;
+    margin-top: 450px;
+}
+
+#zoomin {
+    overflow: hidden;
+    float: left;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+#logo {
+    margin-left: 125px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+#cssmenu ul {
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: auto;
+	position: relative;
+	display: block;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #1cba64;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid black;
+	}
+	
+#cssmenu li {
+	display: block;
+	float: left;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	}	
+	
+#cssmenu li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	float: left;
+	padding: 13px 20px 0 20px;
+	}
+	
+#cssmenu li a:hover {
+	color: red;
+	height: auto;
+	}	
+	
+#cssmenu li.active a {
+	color: blue;
+	height: auto;
+	}
+
